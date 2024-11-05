@@ -8,8 +8,8 @@
 
 #
 
-<p align="center">Analista e Desenvolvedora de Sistemas, atualmente sou Dev beckend do Grupo QualityMax.
-Estou constantemente atualizando meus conhecimentos e buscando novos desafios na área de tecnologia. Tenho paixão por aprender e aplicar esses conhecimentos para criar soluções inovadoras.
+<p align="center">I'm Kayllanne, a Brazilian back-end developer passionate about crafting high-performance applications. I specialize in JavaScript and Python, creating efficient APIs and managing complex databases.
+I thrive on solving challenging problems and love collaborating with teams to turn innovative ideas into reality. Let’s connect and build something amazing together!.
   
 #
 <br clear="both">
