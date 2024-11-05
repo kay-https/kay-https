@@ -8,7 +8,7 @@
 
 #
 
-<p align="center">Analista e Densenvolvedora de Sitemas, atualmente sou Dev beckend do Grupo QualityMax.
+<p align="center">Analista e Densenvolvedora de Sistemas, atualmente sou Dev beckend do Grupo QualityMax.
 Estou constantemente atualizando meus conhecimentos e buscando novos desafios na área de tecnologia. Tenho paixão por aprender e aplicar esses conhecimentos para criar soluções inovadoras.
   
 #
