@@ -23,7 +23,7 @@ I thrive on solving challenging problems and love collaborating with teams to tu
 
 ###
 
-<img align="right" height="150" src="https://i.pinimg.com/originals/11/0d/bd/110dbddfd3d662479c214cacb754995d.gif"  />
+<img align="right" height="150" src="https://i.pinimg.com/originals/a6/98/60/a698605a62094dc2700bed3fec3b4885.gif"  />
 
 ###
 
