@@ -10,7 +10,7 @@
 
 <p align="center">👋 Olá, eu sou a Kayllanne Farias
 
-Sou Desenvolvedora Back-End Júnior, apaixonada por resolver problemas com código e criar soluções que façam a diferença. Tenho experiência com Java, Spring Boot, PL/SQL, Oracle, Postgres e já trabalhei em integrações sistêmicas, APIs REST e desenvolvimento de interfaces web.
+Sou Desenvolvedora Back-End, apaixonada por resolver problemas com código e criar soluções que façam a diferença. Tenho experiência com Java, Spring Boot, PL/SQL, Oracle, Postgres e já trabalhei em integrações sistêmicas, APIs REST e desenvolvimento de interfaces web.
 
 💻 O que você encontra por aqui:
 
