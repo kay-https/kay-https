@@ -8,10 +8,19 @@
 
 #
 
-<p align="center">I'm Kayllanne, a Brazilian back-end developer passionate about crafting high-performance applications. I specialize in JavaScript and Python, creating efficient APIs and managing complex databases.
-I thrive on solving challenging problems and love collaborating with teams to turn innovative ideas into reality. Let’s connect and build something amazing together!.
-  
-#
+<p align="center">👋 Olá, eu sou a Kayllanne Farias
+
+Sou Desenvolvedora Back-End Júnior, apaixonada por resolver problemas com código e criar soluções que façam a diferença. Tenho experiência com Java, Spring Boot, PL/SQL, Oracle, Postgres e já trabalhei em integrações sistêmicas, APIs REST e desenvolvimento de interfaces web.
+
+💻 O que você encontra por aqui:
+
+Projetos práticos em Java e Spring Boot
+Integrações com bancos de dados (Oracle, Postgres, MySQL)
+APIs, dashboards e soluções criativas para estudo e portfólio
+
+🚀 Objetivo: crescer como desenvolvedora, contribuindo em projetos desafiadores e aprendendo continuamente.
+
+📫 Vamos nos conectar?
 <br clear="both">
 
 ###
