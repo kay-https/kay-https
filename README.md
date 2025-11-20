@@ -1,65 +1,84 @@
-
-<!-- HEADER ROSA COM ANIMAÇÃO DE TEXTO -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Oi%2C+eu+sou+a+Kay!+%F0%9F%92%97;Dev+Back-End+Java+%2B+Spring+Boot;Criando+projetos+fofos%2C+geeks+e+interativos" alt="Typing SVG" />
-</p>
+<!-- TITLE -->
+<h1 align="center">🌸 Kayllanne Farias — Back-End Developer 🌸</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif" width="140">
-</p>
-
-<p align="center">
-  <b>Bem-vindo(a) ao meu universo rosa de commits, jogos e projetos criativos! 🎀</b>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&center=true&vCenter=true&width=600&lines=Back-End+Developer+%7C+Java+%7C+Spring+Boot;Creative+Projects+%2B+Cute+Design;Always+Learning+%26+Building+Fun+Things+%F0%9F%92%97" />
 </p>
 
 ---
 
-## 🌸 Sobre mim
+## 🌸 About Me
 
-- 💻 Dev Back-End focada em **Java + Spring Boot**
-- 🎮 Viciada em **animes, games e experiências interativas**
-- 💖 Amo deixar tudo com **vibe cute + rosa**
-- 🚀 Buscando oportunidades como **Dev Back-End Júnior**
-- 🎧 Codando sempre com uma playlist lofi de fundo
+Hi! I'm **Kay**, a back-end developer passionate about  
+**Java, Spring Boot, clean architectures, interactive experiences, games and cute aesthetics**.  
+
+I love mixing professionalism with creativity — expect APIs, elegant code, animations, and pink energy across my projects.
+
+💖 *“Pretty code is powerful code.”*
 
 ---
 
-## 🎀 Stack favorita
+## 🧠 Tech Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-FFB7D5?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Boot-FF9AC4?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-FBD0E5?style=for-the-badge&logo=nodedotjs&logoColor=3C873A" />
-  <img src="https://img.shields.io/badge/TypeScript-F7B6D2?style=for-the-badge&logo=typescript&logoColor=3178C6" />
-  <img src="https://img.shields.io/badge/React-F9C2DD?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/MySQL-FFB6C1?style=for-the-badge&logo=mysql&logoColor=005C84" />
+  <img src="https://img.shields.io/badge/Java-FFB6D9?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-FFA2CE?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-FBC7DE?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-F7B6D1?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-F8C9DF?style=for-the-badge&logo=express&logoColor=black" />
+  <img src="https://img.shields.io/badge/JavaScript-FAD9E8?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-F9BADA?style=for-the-badge&logo=typescript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-FBC1DC?style=for-the-badge&logo=react&logoColor=white" />
 </p>
 
 ---
 
-## 🎮 Commit Quest – Mini Joguinho de Commits
+# 🎮 Pac-Man Commit Game  
+### *Yes — just like the one you sent!*
 
-> Transformando seus commits em **XP de RPG** 🌟
+<p align="center">
+  <img src="https://raw.githubusercontent.com/journey-ad/github-contribution-game/main/dist/game.svg" width="900" />
+</p>
 
-Regras:
-- Cada dia que você:
-  - faz **1 commit** em qualquer projeto 👉 +1 XP  
-  - abre **1 PR ou Issue** 👉 +2 XP  
-  - contribui em projeto open source 👉 +3 XP  
+> 🔧 *I can generate one exactly with your username so it reflects **your real contribution history** — just tell me your GitHub @.*
 
-Você atualiza seu “save” manualmente no quadro abaixo:
+---
 
-```md
-🎀 COMMIT QUEST – SAVE GAME
+## ✨ Featured Projects
 
-👤 Jogador(a): Kay
-⭐ Level atual: 01
-✨ XP atual: 07 / 20
+### 🎵 Paint Musical  
+A playful web app where each brush stroke plays a real musical note.
 
-📆 Últimos dias:
-- 19/11: 3 commits (+3 XP)
-- 18/11: 2 commits, 1 PR (+4 XP)
-- 17/11: 0 😴
+### 🧭 SkillSync  
+A collaborative skill-mapping platform (Java + React).
 
-🎁 Próxima recompensa:
-- Level 02 → Escolher um projeto fofo novo pra começar
+### 🎮 Valorant Fantasy League  
+Fantasy game using real pro-match performance as scoring logic.
+
+### 💘 Do Vavá pra Vida  
+A romantic interactive website themed around Valorant + Matuê vibes.
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=kayllannefarias&show_icons=true&bg_color=FBEAFC&title_color=FF6FAE&text_color=6B4F63&hide_border=true" />
+  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=kayllannefarias&background=FBEAFC&ring=FF6FAE&fire=FF6FAE&currStreakLabel=6B4F63&hide_border=true" />
+</p>
+
+---
+
+## 🌐 Socials
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-FF9EC7?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="#"><img src="https://img.shields.io/badge/Instagram-FF6FAE?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+</p>
+
+---
+
+<p align="center">
+  <i>Thanks for stopping by!  
+  May your bugs be tiny and your commits be mighty ✨💖</i>
+</p>
