@@ -1,10 +1,4 @@
-<div align="center">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<br>
-
-<!-- Logo personalizado (troque por um logo seu se quiser) -->
 <img src="https://raw.githubusercontent.com/DevYukis/.github/main/assets/devyukis-logo.svg" alt="Kay" />
 
 <br><br>
