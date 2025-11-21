@@ -1,0 +1,17 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <defs>
+    <linearGradient id="softPinkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFDAED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Paleta de pintura -->
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c.55 0 1-.45 1-1 0-.26-.1-.51-.26-.71-.15-.21-.24-.46-.24-.71 0-.55.45-1 1-1h1.5c3.03 0 5.5-2.47 5.5-5.5C20.5 5.02 16.98 2 12 2zm-5 9c-.83 0-1.5-.67-1.5-1.5S6.17 8 7 8s1.5.67 1.5 1.5S7.83 11 7 11zm2-4c-.83 0-1.5-.67-1.5-1.5S8.17 4 9 4s1.5.67 1.5 1.5S9.83 7 9 7zm6 0c-.83 0-1.5-.67-1.5-1.5S14.17 4 15 4s1.5.67 1.5 1.5S15.83 7 15 7zm2 4c-.83 0-1.5-.67-1.5-1.5S16.17 8 17 8s1.5.67 1.5 1.5S17.83 11 17 11z" fill="url(#softPinkGradient)"/>
+  
+  <!-- Brilho/destaque -->
+  <circle cx="7" cy="9.5" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="9" cy="5.5" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="15" cy="5.5" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="17" cy="9.5" r="1.5" fill="#ffffff" opacity="0.3"/>
+</svg>

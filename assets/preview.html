@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GITNPPP - Assets Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0d1117 0%, #1a1f2e 100%);
+            color: #e0d4ff;
+            min-height: 100vh;
+            transition: background 0.6s ease, color 0.3s ease;
+        }
+
+        body.purple-theme { 
+            background: linear-gradient(135deg, #0d1117 0%, #1a1529 50%, #1e1b3d 100%);
+            color: #e0d4ff;
+        }
+        body.blue-theme { 
+            background: linear-gradient(135deg, #0d1117 0%, #0f1a2e 50%, #1a2742 100%);
+            color: #dbeafe;
+        }
+        body.green-theme { 
+            background: linear-gradient(135deg, #0d1117 0%, #0f1e1a 50%, #1a2f27 100%);
+            color: #d1fae5;
+        }
+        body.red-theme { 
+            background: linear-gradient(135deg, #0d1117 0%, #1e0f0f 50%, #2d1a1a 100%);
+            color: #fee2e2;
+        }
+        body.orange-theme { 
+            background: linear-gradient(135deg, #0d1117 0%, #1e150f 50%, #2d2315 100%);
+            color: #ffedd5;
+        }
+        body.pink-theme { 
+            background: linear-gradient(135deg, #0d1117 0%, #1e0f1a 50%, #2d1a27 100%);
+            color: #fce7f3;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 2px solid rgba(168, 85, 247, 0.3);
+            padding: 20px 0;
+            z-index: 1000;
+            transition: border-color 0.3s ease;
+        }
+
+        body.purple-theme nav { border-bottom-color: rgba(168, 85, 247, 0.4); }
+        body.blue-theme nav { border-bottom-color: rgba(59, 130, 246, 0.4); }
+        body.green-theme nav { border-bottom-color: rgba(16, 185, 129, 0.4); }
+        body.red-theme nav { border-bottom-color: rgba(239, 68, 68, 0.4); }
+        body.orange-theme nav { border-bottom-color: rgba(249, 115, 22, 0.4); }
+        body.pink-theme nav { border-bottom-color: rgba(236, 72, 153, 0.4); }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            font-size: 1.5rem;
+            background: linear-gradient(135deg, #a855f7, #e0d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        nav a {
+            color: #c084fc;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            padding: 8px 16px;
+            border-radius: 8px;
+        }
+
+        nav a:hover {
+            color: #e0d4ff;
+            background: rgba(168, 85, 247, 0.2);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        /* Section */
+        section {
+            margin-bottom: 80px;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #a855f7, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transition: all 0.3s ease;
+        }
+
+        body.blue-theme .section-header h2 { 
+            background: linear-gradient(135deg, #3b82f6, #60a5fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        body.green-theme .section-header h2 { 
+            background: linear-gradient(135deg, #10b981, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        body.red-theme .section-header h2 { 
+            background: linear-gradient(135deg, #ef4444, #f87171);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        body.orange-theme .section-header h2 { 
+            background: linear-gradient(135deg, #f97316, #fb923c);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        body.pink-theme .section-header h2 { 
+            background: linear-gradient(135deg, #ec4899, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .section-header p {
+            color: #8b5cf6;
+            font-size: 1.1rem;
+        }
+
+        /* Custom Emojis Grid */
+        .emoji-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .emoji-card {
+            background: rgba(168, 85, 247, 0.1);
+            border: 2px solid rgba(168, 85, 247, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .emoji-card:hover {
+            transform: translateY(-5px);
+            border-color: #a855f7;
+            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.3);
+        }
+
+        body.blue-theme .emoji-card { 
+            background: rgba(59, 130, 246, 0.1); 
+            border-color: rgba(59, 130, 246, 0.3); 
+        }
+        body.blue-theme .emoji-card:hover { 
+            border-color: #3b82f6; 
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3); 
+        }
+
+        body.green-theme .emoji-card { 
+            background: rgba(16, 185, 129, 0.1); 
+            border-color: rgba(16, 185, 129, 0.3); 
+        }
+        body.green-theme .emoji-card:hover { 
+            border-color: #10b981; 
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3); 
+        }
+
+        body.red-theme .emoji-card { 
+            background: rgba(239, 68, 68, 0.1); 
+            border-color: rgba(239, 68, 68, 0.3); 
+        }
+        body.red-theme .emoji-card:hover { 
+            border-color: #ef4444; 
+            box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3); 
+        }
+
+        body.orange-theme .emoji-card { 
+            background: rgba(249, 115, 22, 0.1); 
+            border-color: rgba(249, 115, 22, 0.3); 
+        }
+        body.orange-theme .emoji-card:hover { 
+            border-color: #f97316; 
+            box-shadow: 0 10px 30px rgba(249, 115, 22, 0.3); 
+        }
+
+        body.pink-theme .emoji-card { 
+            background: rgba(236, 72, 153, 0.1); 
+            border-color: rgba(236, 72, 153, 0.3); 
+        }
+        body.pink-theme .emoji-card:hover { 
+            border-color: #ec4899; 
+            box-shadow: 0 10px 30px rgba(236, 72, 153, 0.3); 
+        }
+
+        .emoji-display {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .emoji-display img {
+            width: 100%;
+            height: 100%;
+            filter: drop-shadow(0 2px 8px rgba(168, 85, 247, 0.4));
+        }
+
+        .emoji-name {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #e0d4ff;
+            margin-bottom: 5px;
+        }
+
+        .emoji-file {
+            font-size: 0.75rem;
+            color: #8b5cf6;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Color Tabs */
+        .color-tabs {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .color-tab {
+            padding: 10px 20px;
+            border: 2px solid rgba(168, 85, 247, 0.3);
+            border-radius: 8px;
+            background: rgba(168, 85, 247, 0.1);
+            color: #c084fc;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .color-tab:hover,
+        .color-tab.active {
+            border-color: #a855f7;
+            background: rgba(168, 85, 247, 0.2);
+            color: #e0d4ff;
+        }
+
+        /* Skill Icons Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 30px;
+        }
+
+        .skill-icon {
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .skill-icon:hover {
+            transform: scale(1.1);
+        }
+
+        .skill-icon img {
+            width: 80px;
+            height: 80px;
+            display: block;
+            margin: 0 auto 10px;
+            transition: all 0.3s ease;
+            filter: drop-shadow(0 2px 8px rgba(168, 85, 247, 0.3));
+        }
+
+        .skill-icon:hover img {
+            filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.8));
+        }
+
+        .skill-name {
+            color: #8b5cf6;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        /* Code Block */
+        .code-block {
+            background: rgba(26, 31, 46, 0.8);
+            border: 2px solid rgba(168, 85, 247, 0.3);
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 30px;
+        }
+
+        .code-block h3 {
+            color: #a855f7;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .code-block pre {
+            background: #0d1117;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            color: #c9d1d9;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: rgba(168, 85, 247, 0.1);
+            border: 2px solid rgba(168, 85, 247, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        body.blue-theme .stat-card { 
+            background: rgba(59, 130, 246, 0.1); 
+            border-color: rgba(59, 130, 246, 0.3); 
+        }
+        body.green-theme .stat-card { 
+            background: rgba(16, 185, 129, 0.1); 
+            border-color: rgba(16, 185, 129, 0.3); 
+        }
+        body.red-theme .stat-card { 
+            background: rgba(239, 68, 68, 0.1); 
+            border-color: rgba(239, 68, 68, 0.3); 
+        }
+        body.orange-theme .stat-card { 
+            background: rgba(249, 115, 22, 0.1); 
+            border-color: rgba(249, 115, 22, 0.3); 
+        }
+        body.pink-theme .stat-card { 
+            background: rgba(236, 72, 153, 0.1); 
+            border-color: rgba(236, 72, 153, 0.3); 
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #a855f7, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #8b5cf6;
+            font-size: 0.9rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 2px solid rgba(168, 85, 247, 0.3);
+            color: #8b5cf6;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            nav .container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+
+            .container {
+                padding: 40px 20px;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .emoji-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <h1>GITNPPP Assets</h1>
+            <ul>
+                <li><a href="#emojis">Custom Emojis</a></li>
+                <li><a href="#icons">Skill Icons</a></li>
+                <li><a href="#usage">Usage</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        
+        <!-- Stats Section -->
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">66</div>
+                <div class="stat-label">Custom Emojis SVG</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Skill Icons</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">6</div>
+                <div class="stat-label">Color Variations</div>
+            </div>
+        </div>
+
+        <!-- Custom Emojis Section -->
+        <section id="emojis">
+            <div class="section-header">
+                <h2>Custom Emojis</h2>
+                <p>66 emojis animados em 6 variações de cores</p>
+            </div>
+
+            <div class="color-tabs">
+                <button class="color-tab active" onclick="filterEmojis('purple')">Purple</button>
+                <button class="color-tab" onclick="filterEmojis('blue')">Blue</button>
+                <button class="color-tab" onclick="filterEmojis('green')">Green</button>
+                <button class="color-tab" onclick="filterEmojis('red')">Red</button>
+                <button class="color-tab" onclick="filterEmojis('orange')">Orange</button>
+                <button class="color-tab" onclick="filterEmojis('pink')">Pink</button>
+            </div>
+
+            <div class="emoji-grid" id="emojiGrid">
+                <!-- Purple emojis (default) -->
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-eye.svg" alt="Eye">
+                    </div>
+                    <div class="emoji-name">Eye</div>
+                    <div class="emoji-file">purple-eye.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-users.svg" alt="Users">
+                    </div>
+                    <div class="emoji-name">Users</div>
+                    <div class="emoji-file">purple-users.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-target.svg" alt="Target">
+                    </div>
+                    <div class="emoji-name">Target</div>
+                    <div class="emoji-file">purple-target.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-rocket.svg" alt="Rocket">
+                    </div>
+                    <div class="emoji-name">Rocket</div>
+                    <div class="emoji-file">purple-rocket.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-code.svg" alt="Code">
+                    </div>
+                    <div class="emoji-name">Code</div>
+                    <div class="emoji-file">purple-code.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-sparkles.svg" alt="Sparkles">
+                    </div>
+                    <div class="emoji-name">Sparkles</div>
+                    <div class="emoji-file">purple-sparkles.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-heart.svg" alt="Heart">
+                    </div>
+                    <div class="emoji-name">Heart</div>
+                    <div class="emoji-file">purple-heart.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-star.svg" alt="Star">
+                    </div>
+                    <div class="emoji-name">Star</div>
+                    <div class="emoji-file">purple-star.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-fire.svg" alt="Fire">
+                    </div>
+                    <div class="emoji-name">Fire</div>
+                    <div class="emoji-file">purple-fire.svg</div>
+                </div>
+                <div class="emoji-card" data-color="purple">
+                    <div class="emoji-display">
+                        <img src="emojis/purple-lightning.svg" alt="Lightning">
+                    </div>
+                    <div class="emoji-name">Lightning</div>
+                    <div class="emoji-file">purple-lightning.svg</div>
+                </div>
+
+                <!-- Blue emojis -->
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-eye.svg" alt="Eye">
+                    </div>
+                    <div class="emoji-name">Eye</div>
+                    <div class="emoji-file">blue-eye.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-users.svg" alt="Users">
+                    </div>
+                    <div class="emoji-name">Users</div>
+                    <div class="emoji-file">blue-users.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-target.svg" alt="Target">
+                    </div>
+                    <div class="emoji-name">Target</div>
+                    <div class="emoji-file">blue-target.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-rocket.svg" alt="Rocket">
+                    </div>
+                    <div class="emoji-name">Rocket</div>
+                    <div class="emoji-file">blue-rocket.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-code.svg" alt="Code">
+                    </div>
+                    <div class="emoji-name">Code</div>
+                    <div class="emoji-file">blue-code.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-sparkles.svg" alt="Sparkles">
+                    </div>
+                    <div class="emoji-name">Sparkles</div>
+                    <div class="emoji-file">blue-sparkles.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-heart.svg" alt="Heart">
+                    </div>
+                    <div class="emoji-name">Heart</div>
+                    <div class="emoji-file">blue-heart.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-star.svg" alt="Star">
+                    </div>
+                    <div class="emoji-name">Star</div>
+                    <div class="emoji-file">blue-star.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-fire.svg" alt="Fire">
+                    </div>
+                    <div class="emoji-name">Fire</div>
+                    <div class="emoji-file">blue-fire.svg</div>
+                </div>
+                <div class="emoji-card" data-color="blue" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/blue-lightning.svg" alt="Lightning">
+                    </div>
+                    <div class="emoji-name">Lightning</div>
+                    <div class="emoji-file">blue-lightning.svg</div>
+                </div>
+
+                <!-- Green emojis -->
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-eye.svg" alt="Eye">
+                    </div>
+                    <div class="emoji-name">Eye</div>
+                    <div class="emoji-file">green-eye.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-users.svg" alt="Users">
+                    </div>
+                    <div class="emoji-name">Users</div>
+                    <div class="emoji-file">green-users.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-target.svg" alt="Target">
+                    </div>
+                    <div class="emoji-name">Target</div>
+                    <div class="emoji-file">green-target.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-rocket.svg" alt="Rocket">
+                    </div>
+                    <div class="emoji-name">Rocket</div>
+                    <div class="emoji-file">green-rocket.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-code.svg" alt="Code">
+                    </div>
+                    <div class="emoji-name">Code</div>
+                    <div class="emoji-file">green-code.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-sparkles.svg" alt="Sparkles">
+                    </div>
+                    <div class="emoji-name">Sparkles</div>
+                    <div class="emoji-file">green-sparkles.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-heart.svg" alt="Heart">
+                    </div>
+                    <div class="emoji-name">Heart</div>
+                    <div class="emoji-file">green-heart.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-star.svg" alt="Star">
+                    </div>
+                    <div class="emoji-name">Star</div>
+                    <div class="emoji-file">green-star.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-fire.svg" alt="Fire">
+                    </div>
+                    <div class="emoji-name">Fire</div>
+                    <div class="emoji-file">green-fire.svg</div>
+                </div>
+                <div class="emoji-card" data-color="green" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/green-lightning.svg" alt="Lightning">
+                    </div>
+                    <div class="emoji-name">Lightning</div>
+                    <div class="emoji-file">green-lightning.svg</div>
+                </div>
+
+                <!-- Red emojis -->
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-eye.svg" alt="Eye">
+                    </div>
+                    <div class="emoji-name">Eye</div>
+                    <div class="emoji-file">red-eye.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-users.svg" alt="Users">
+                    </div>
+                    <div class="emoji-name">Users</div>
+                    <div class="emoji-file">red-users.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-target.svg" alt="Target">
+                    </div>
+                    <div class="emoji-name">Target</div>
+                    <div class="emoji-file">red-target.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-rocket.svg" alt="Rocket">
+                    </div>
+                    <div class="emoji-name">Rocket</div>
+                    <div class="emoji-file">red-rocket.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-code.svg" alt="Code">
+                    </div>
+                    <div class="emoji-name">Code</div>
+                    <div class="emoji-file">red-code.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-sparkles.svg" alt="Sparkles">
+                    </div>
+                    <div class="emoji-name">Sparkles</div>
+                    <div class="emoji-file">red-sparkles.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-heart.svg" alt="Heart">
+                    </div>
+                    <div class="emoji-name">Heart</div>
+                    <div class="emoji-file">red-heart.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-star.svg" alt="Star">
+                    </div>
+                    <div class="emoji-name">Star</div>
+                    <div class="emoji-file">red-star.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-fire.svg" alt="Fire">
+                    </div>
+                    <div class="emoji-name">Fire</div>
+                    <div class="emoji-file">red-fire.svg</div>
+                </div>
+                <div class="emoji-card" data-color="red" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/red-lightning.svg" alt="Lightning">
+                    </div>
+                    <div class="emoji-name">Lightning</div>
+                    <div class="emoji-file">red-lightning.svg</div>
+                </div>
+
+                <!-- Orange emojis -->
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-eye.svg" alt="Eye">
+                    </div>
+                    <div class="emoji-name">Eye</div>
+                    <div class="emoji-file">orange-eye.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-users.svg" alt="Users">
+                    </div>
+                    <div class="emoji-name">Users</div>
+                    <div class="emoji-file">orange-users.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-target.svg" alt="Target">
+                    </div>
+                    <div class="emoji-name">Target</div>
+                    <div class="emoji-file">orange-target.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-rocket.svg" alt="Rocket">
+                    </div>
+                    <div class="emoji-name">Rocket</div>
+                    <div class="emoji-file">orange-rocket.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-code.svg" alt="Code">
+                    </div>
+                    <div class="emoji-name">Code</div>
+                    <div class="emoji-file">orange-code.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-sparkles.svg" alt="Sparkles">
+                    </div>
+                    <div class="emoji-name">Sparkles</div>
+                    <div class="emoji-file">orange-sparkles.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-heart.svg" alt="Heart">
+                    </div>
+                    <div class="emoji-name">Heart</div>
+                    <div class="emoji-file">orange-heart.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-star.svg" alt="Star">
+                    </div>
+                    <div class="emoji-name">Star</div>
+                    <div class="emoji-file">orange-star.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-fire.svg" alt="Fire">
+                    </div>
+                    <div class="emoji-name">Fire</div>
+                    <div class="emoji-file">orange-fire.svg</div>
+                </div>
+                <div class="emoji-card" data-color="orange" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/orange-lightning.svg" alt="Lightning">
+                    </div>
+                    <div class="emoji-name">Lightning</div>
+                    <div class="emoji-file">orange-lightning.svg</div>
+                </div>
+
+                <!-- Pink emojis -->
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-eye.svg" alt="Eye">
+                    </div>
+                    <div class="emoji-name">Eye</div>
+                    <div class="emoji-file">pink-eye.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-users.svg" alt="Users">
+                    </div>
+                    <div class="emoji-name">Users</div>
+                    <div class="emoji-file">pink-users.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-target.svg" alt="Target">
+                    </div>
+                    <div class="emoji-name">Target</div>
+                    <div class="emoji-file">pink-target.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-rocket.svg" alt="Rocket">
+                    </div>
+                    <div class="emoji-name">Rocket</div>
+                    <div class="emoji-file">pink-rocket.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-code.svg" alt="Code">
+                    </div>
+                    <div class="emoji-name">Code</div>
+                    <div class="emoji-file">pink-code.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-sparkles.svg" alt="Sparkles">
+                    </div>
+                    <div class="emoji-name">Sparkles</div>
+                    <div class="emoji-file">pink-sparkles.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-heart.svg" alt="Heart">
+                    </div>
+                    <div class="emoji-name">Heart</div>
+                    <div class="emoji-file">pink-heart.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-star.svg" alt="Star">
+                    </div>
+                    <div class="emoji-name">Star</div>
+                    <div class="emoji-file">pink-star.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-fire.svg" alt="Fire">
+                    </div>
+                    <div class="emoji-name">Fire</div>
+                    <div class="emoji-file">pink-fire.svg</div>
+                </div>
+                <div class="emoji-card" data-color="pink" style="display:none">
+                    <div class="emoji-display">
+                        <img src="emojis/pink-lightning.svg" alt="Lightning">
+                    </div>
+                    <div class="emoji-name">Lightning</div>
+                    <div class="emoji-file">pink-lightning.svg</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skill Icons Section -->
+        <section id="icons">
+            <div class="section-header">
+                <h2>Skill Icons</h2>
+                <p>Ícones de tecnologias com efeito neon</p>
+            </div>
+
+            <h3 style="color: #a855f7; margin-bottom: 20px;">Languages</h3>
+            <div class="skills-grid">
+                <div class="skill-icon">
+                    <img src="icons/python.svg" alt="Python">
+                    <div class="skill-name">Python</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/javascript.svg" alt="JavaScript">
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/typescript.svg" alt="TypeScript">
+                    <div class="skill-name">TypeScript</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/java.svg" alt="Java">
+                    <div class="skill-name">Java</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/ruby.svg" alt="Ruby">
+                    <div class="skill-name">Ruby</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/go.svg" alt="Go">
+                    <div class="skill-name">Go</div>
+                </div>
+            </div>
+
+            <h3 style="color: #a855f7; margin: 40px 0 20px;">Frameworks & Tools</h3>
+            <div class="skills-grid">
+                <div class="skill-icon">
+                    <img src="icons/react.svg" alt="React">
+                    <div class="skill-name">React</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/nodejs.svg" alt="Node.js">
+                    <div class="skill-name">Node.js</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/docker.svg" alt="Docker">
+                    <div class="skill-name">Docker</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/git.svg" alt="Git">
+                    <div class="skill-name">Git</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/github.svg" alt="GitHub">
+                    <div class="skill-name">GitHub</div>
+                </div>
+                <div class="skill-icon">
+                    <img src="icons/vscode.svg" alt="VS Code">
+                    <div class="skill-name">VS Code</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Usage Section -->
+        <section id="usage">
+            <div class="section-header">
+                <h2>Como Usar</h2>
+                <p>Exemplos de implementação no README</p>
+            </div>
+
+            <div class="code-block">
+                <h3>Custom Emojis no Markdown</h3>
+                <pre>&lt;img src="./assets/emojis/purple-star.svg" width="20" alt="Star" /&gt;
+
+&lt;!-- Com texto inline --&gt;
+Projeto incrível &lt;img src="./assets/emojis/purple-sparkles.svg" width="16" /&gt;
+
+&lt;!-- Header de seção --&gt;
+## &lt;img src="./assets/emojis/purple-rocket.svg" width="28" /&gt; Quick Start</pre>
+            </div>
+
+            <div class="code-block">
+                <h3>Skill Icons no README</h3>
+                <pre>&lt;div align="center"&gt;
+  &lt;img src="./assets/icons/python.svg" width="50" alt="Python" /&gt;
+  &lt;img src="./assets/icons/javascript.svg" width="50" alt="JavaScript" /&gt;
+  &lt;img src="./assets/icons/react.svg" width="50" alt="React" /&gt;
+&lt;/div&gt;</pre>
+            </div>
+
+            <div class="code-block">
+                <h3>URL Raw do GitHub</h3>
+                <pre>&lt;img src="https://raw.githubusercontent.com/USERNAME/REPO/main/assets/emojis/purple-fire.svg" width="20" /&gt;</pre>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>GITNPPP - GitHub Profile Perfection Package</p>
+        <p>66 Custom Emojis + 12 Skill Icons | DevYukis © 2025</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        function filterEmojis(color) {
+            // Update active tab
+            document.querySelectorAll('.color-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // Change page theme
+            document.body.className = color + '-theme';
+
+            // Show/hide emojis
+            document.querySelectorAll('.emoji-card').forEach(card => {
+                if (card.dataset.color === color) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Set initial theme
+        document.body.className = 'purple-theme';
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

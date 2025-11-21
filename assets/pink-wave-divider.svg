@@ -1,0 +1,97 @@
+<svg width="100%" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente rosa vibrante para as ondas -->
+    <linearGradient id="waveGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFB6D9;stop-opacity:0.8">
+        <animate attributeName="stop-color" values="#FFB6D9;#FF69B4;#FFB6D9" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#FF69B4;stop-opacity:1">
+        <animate attributeName="stop-color" values="#FF69B4;#FF8AC9;#FF69B4" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#FFC8E3;stop-opacity:0.8">
+        <animate attributeName="stop-color" values="#FFC8E3;#FFB6D9;#FFC8E3" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="waveGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF8AC9;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#FFB6D9;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#FF69B4;stop-opacity:0.6"/>
+    </linearGradient>
+    
+    <linearGradient id="waveGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFC8E3;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#FF8AC9;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#FFC8E3;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="150" fill="#0d1117"/>
+  
+  <!-- Primeira onda (mais próxima) -->
+  <path d="M 0 80 Q 150 60, 300 80 T 600 80 T 900 80 T 1200 80 L 1200 150 L 0 150 Z" fill="url(#waveGradient1)">
+    <animate attributeName="d" 
+             values="M 0 80 Q 150 60, 300 80 T 600 80 T 900 80 T 1200 80 L 1200 150 L 0 150 Z;
+                     M 0 80 Q 150 100, 300 80 T 600 80 T 900 80 T 1200 80 L 1200 150 L 0 150 Z;
+                     M 0 80 Q 150 60, 300 80 T 600 80 T 900 80 T 1200 80 L 1200 150 L 0 150 Z"
+             dur="6s" 
+             repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Segunda onda (meio) -->
+  <path d="M 0 90 Q 150 70, 300 90 T 600 90 T 900 90 T 1200 90 L 1200 150 L 0 150 Z" fill="url(#waveGradient2)">
+    <animate attributeName="d" 
+             values="M 0 90 Q 150 70, 300 90 T 600 90 T 900 90 T 1200 90 L 1200 150 L 0 150 Z;
+                     M 0 90 Q 150 110, 300 90 T 600 90 T 900 90 T 1200 90 L 1200 150 L 0 150 Z;
+                     M 0 90 Q 150 70, 300 90 T 600 90 T 900 90 T 1200 90 L 1200 150 L 0 150 Z"
+             dur="5s" 
+             repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Terceira onda (mais distante) -->
+  <path d="M 0 100 Q 150 80, 300 100 T 600 100 T 900 100 T 1200 100 L 1200 150 L 0 150 Z" fill="url(#waveGradient3)">
+    <animate attributeName="d" 
+             values="M 0 100 Q 150 80, 300 100 T 600 100 T 900 100 T 1200 100 L 1200 150 L 0 150 Z;
+                     M 0 100 Q 150 120, 300 100 T 600 100 T 900 100 T 1200 100 L 1200 150 L 0 150 Z;
+                     M 0 100 Q 150 80, 300 100 T 600 100 T 900 100 T 1200 100 L 1200 150 L 0 150 Z"
+             dur="7s" 
+             repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Partículas brilhantes -->
+  <g fill="#FFC8E3" opacity="0.8">
+    <circle cx="200" cy="70" r="3">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="70;60;70" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="65" r="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="cy" values="65;55;65" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="800" cy="75" r="3">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="cy" values="75;65;75" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+    <circle cx="1000" cy="68" r="2">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
+      <animate attributeName="cy" values="68;58;68" dur="2.8s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+  </g>
+  
+  <!-- Estrelinhas rosa -->
+  <g fill="#FFB6D9" opacity="0.6">
+    <path d="M 350 40 L 352 45 L 357 45 L 353 48 L 355 53 L 350 50 L 345 53 L 347 48 L 343 45 L 348 45 Z">
+      <animateTransform attributeName="transform" type="rotate" from="0 350 45" to="360 350 45" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 650 35 L 652 40 L 657 40 L 653 43 L 655 48 L 650 45 L 645 48 L 647 43 L 643 40 L 648 40 Z">
+      <animateTransform attributeName="transform" type="rotate" from="0 650 40" to="360 650 40" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    </path>
+    <path d="M 950 45 L 952 50 L 957 50 L 953 53 L 955 58 L 950 55 L 945 58 L 947 53 L 943 50 L 948 50 Z">
+      <animateTransform attributeName="transform" type="rotate" from="0 950 50" to="360 950 50" dur="4.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </path>
+  </g>
+</svg>

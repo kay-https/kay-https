@@ -1,0 +1,30 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Neon Border -->
+  <rect x="3" y="3" width="74" height="74" rx="15" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.6" filter="url(#neonGlow)"/>
+  
+  <!-- Background -->
+  <rect x="8" y="8" width="64" height="64" rx="12" fill="#1a1f2e"/>
+  
+  <!-- Go Gopher - Original Cyan -->
+  <ellipse cx="40" cy="42" rx="14" ry="16" fill="#00ADD8"/>
+  <circle cx="35" cy="39" r="2" fill="#FFFFFF"/>
+  <circle cx="45" cy="39" r="2" fill="#FFFFFF"/>
+  <path d="M33 46 Q40 49 47 46" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Ears -->
+  <ellipse cx="28" cy="33" rx="3.5" ry="5" fill="#00ADD8"/>
+  <ellipse cx="52" cy="33" rx="3.5" ry="5" fill="#00ADD8"/>
+  
+  <!-- Nose -->
+  <circle cx="40" cy="42" r="1.5" fill="#000000"/>
+</svg>

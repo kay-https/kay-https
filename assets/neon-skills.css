@@ -1,0 +1,55 @@
+/* Custom Skill Icons with Neon Purple Effect */
+/* Adicione este CSS ao seu projeto ou use inline styles no README */
+
+.skill-icon-container {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.skill-icon-container img {
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 0 2px rgba(168, 85, 247, 0.3));
+    border-radius: 10px;
+    padding: 10px;
+    background: linear-gradient(145deg, #1a1f2e, #0d1117);
+}
+
+.skill-icon-container:hover img {
+    filter: drop-shadow(0 0 10px rgba(168, 85, 247, 0.8))
+            drop-shadow(0 0 20px rgba(168, 85, 247, 0.6))
+            drop-shadow(0 0 30px rgba(168, 85, 247, 0.4));
+    transform: scale(1.15) translateY(-5px);
+    background: linear-gradient(145deg, #2a1f3e, #1a1530);
+    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);
+}
+
+/* Animação de pulsação */
+@keyframes neon-pulse {
+    0%, 100% {
+        filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.5));
+    }
+    50% {
+        filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.8))
+                drop-shadow(0 0 25px rgba(168, 85, 247, 0.6));
+    }
+}
+
+.skill-icon-container:hover img {
+    animation: neon-pulse 1.5s ease-in-out infinite;
+}
+
+/* Para usar no README.md com HTML inline */
+/* Exemplo de uso:
+<div style="display: inline-block; margin: 10px;">
+    <img src="icon-url.svg" 
+         style="width: 50px; height: 50px; 
+                transition: all 0.3s ease;
+                filter: drop-shadow(0 0 2px rgba(168, 85, 247, 0.3));"
+         onmouseover="this.style.filter='drop-shadow(0 0 10px rgba(168, 85, 247, 0.8)) drop-shadow(0 0 20px rgba(168, 85, 247, 0.6))'; this.style.transform='scale(1.15) translateY(-5px)';"
+         onmouseout="this.style.filter='drop-shadow(0 0 2px rgba(168, 85, 247, 0.3))'; this.style.transform='scale(1)';"
+         alt="Skill Name" />
+</div>
+*/

@@ -1,0 +1,73 @@
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente roxo principal -->
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1">
+        <animate attributeName="stop-color" values="#a855f7;#c084fc;#a855f7" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1">
+        <animate attributeName="stop-color" values="#8b5cf6;#a855f7;#8b5cf6" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1">
+        <animate attributeName="stop-color" values="#7c3aed;#8b5cf6;#7c3aed" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <!-- Filtro de brilho -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Animação de pulsação -->
+    <style>
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.6; }
+      }
+      
+      @keyframes glow-pulse {
+        0%, 100% { filter: drop-shadow(0 0 8px #a855f7); }
+        50% { filter: drop-shadow(0 0 20px #c084fc); }
+      }
+      
+      .text-main {
+        font-family: 'Orbitron', 'Exo 2', 'Rajdhani', 'Arial Black', sans-serif;
+        font-size: 48px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        fill: url(#purpleGrad);
+        filter: url(#glow);
+        animation: glow-pulse 2s ease-in-out infinite;
+      }
+      
+      .sparkle {
+        fill: #e0d4ff;
+        animation: pulse 1.5s ease-in-out infinite;
+      }
+      
+      .sparkle:nth-child(2) { animation-delay: 0.3s; }
+      .sparkle:nth-child(3) { animation-delay: 0.6s; }
+      .sparkle:nth-child(4) { animation-delay: 0.9s; }
+      .sparkle:nth-child(5) { animation-delay: 1.2s; }
+    </style>
+  </defs>
+  
+  <!-- Texto principal -->
+  <text x="50%" y="60" text-anchor="middle" class="text-main">DevYukis</text>
+  
+  <!-- Estrelinhas decorativas piscando -->
+  <circle class="sparkle" cx="30" cy="30" r="2"/>
+  <circle class="sparkle" cx="370" cy="30" r="2"/>
+  <circle class="sparkle" cx="50" cy="75" r="1.5"/>
+  <circle class="sparkle" cx="350" cy="75" r="1.5"/>
+  <circle class="sparkle" cx="200" cy="20" r="2"/>
+  
+  <!-- Linha decorativa inferior com gradiente -->
+  <line x1="80" y1="85" x2="320" y2="85" stroke="url(#purpleGrad)" stroke-width="2" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>

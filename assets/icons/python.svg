@@ -1,0 +1,33 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pythonBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4B8BBE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#306998;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pythonYellow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFD43B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFE873;stop-opacity:1" />
+    </linearGradient>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Neon Border -->
+  <rect x="3" y="3" width="74" height="74" rx="15" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.6" filter="url(#neonGlow)"/>
+  
+  <!-- Background -->
+  <rect x="8" y="8" width="64" height="64" rx="12" fill="#1a1f2e"/>
+  
+  <!-- Python Logo - Original Colors -->
+  <path d="M40 22c-4.5 0-8 3.5-8 8v3.5h8v1H32c-4.5 0-8 3.5-8 8s3.5 8 8 8h3.5v-3.5c0-4.5 3.5-8 8-8h7c4.5 0 8-3.5 8-8v-5c0-4.5-3.5-8-8-8h-10.5z" 
+        fill="url(#pythonBlue)"/>
+  <path d="M40 58c4.5 0 8-3.5 8-8v-3.5h-8v-1h8c4.5 0 8-3.5 8-8s-3.5-8-8-8h-3.5v3.5c0 4.5-3.5 8-8 8h-7c-4.5 0-8 3.5-8 8v5c0 4.5 3.5 8 8 8h10.5z" 
+        fill="url(#pythonYellow)"/>
+  <circle cx="35" cy="28" r="1.5" fill="#FFE873"/>
+  <circle cx="45" cy="52" r="1.5" fill="#306998"/>
+</svg>

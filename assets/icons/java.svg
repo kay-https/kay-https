@@ -1,0 +1,30 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Neon Border -->
+  <rect x="3" y="3" width="74" height="74" rx="15" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.6" filter="url(#neonGlow)"/>
+  
+  <!-- Background -->
+  <rect x="8" y="8" width="64" height="64" rx="12" fill="#1a1f2e"/>
+  
+  <!-- Java Cup - Original Red/Orange -->
+  <path d="M32 36c0-2.5 1.5-4.5 4-4.5h8c2.5 0 4 2 4 4.5v12c0 4-3 7-8 7s-8-3-8-7V36z" 
+        fill="none" stroke="#EA2D2E" stroke-width="2.5"/>
+  <ellipse cx="40" cy="36" rx="6" ry="2" fill="#EA2D2E"/>
+  <path d="M34 51c0 2.5 2.5 4 6 4s6-1.5 6-4" stroke="#EA2D2E" stroke-width="2" fill="none"/>
+  
+  <!-- Steam -->
+  <path d="M35 28c0-1.5 0.8-2.5 1.5-2.5s1.5 1 1.5 2.5" fill="none" stroke="#5382A1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M41 28c0-1.5 0.8-2.5 1.5-2.5s1.5 1 1.5 2.5" fill="none" stroke="#5382A1" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Handle -->
+  <path d="M48 40c2 0 3.5 1 3.5 3s-1.5 3-3.5 3" stroke="#EA2D2E" stroke-width="2" fill="none"/>
+</svg>

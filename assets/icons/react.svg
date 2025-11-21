@@ -1,0 +1,27 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Neon Border -->
+  <rect x="3" y="3" width="74" height="74" rx="15" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.6" filter="url(#neonGlow)"/>
+  
+  <!-- Background -->
+  <rect x="8" y="8" width="64" height="64" rx="12" fill="#1a1f2e"/>
+  
+  <!-- React Atom - Original Cyan -->
+  <ellipse cx="40" cy="40" rx="24" ry="9" fill="none" stroke="#61DAFB" stroke-width="2.5"/>
+  <ellipse cx="40" cy="40" rx="24" ry="9" fill="none" stroke="#61DAFB" stroke-width="2.5" 
+           transform="rotate(60 40 40)"/>
+  <ellipse cx="40" cy="40" rx="24" ry="9" fill="none" stroke="#61DAFB" stroke-width="2.5" 
+           transform="rotate(120 40 40)"/>
+  
+  <!-- Core -->
+  <circle cx="40" cy="40" r="3.5" fill="#61DAFB"/>
+</svg>

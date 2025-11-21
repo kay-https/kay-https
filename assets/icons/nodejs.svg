@@ -1,0 +1,26 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Neon Border -->
+  <rect x="3" y="3" width="74" height="74" rx="15" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.6" filter="url(#neonGlow)"/>
+  
+  <!-- Background -->
+  <rect x="8" y="8" width="64" height="64" rx="12" fill="#1a1f2e"/>
+  
+  <!-- Node.js Hexagon - Original Green -->
+  <path d="M40 26 L28 33 L28 47 L40 54 L52 47 L52 33 Z" 
+        fill="#339933" stroke="#339933" stroke-width="1"/>
+  
+  <!-- Inner design -->
+  <path d="M40 32 L40 48" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+  <path d="M34 35 L40 32 L46 35" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9"/>
+  <path d="M34 45 L40 48 L46 45" stroke="#FFFFFF" stroke-width="1.5" opacity="0.9"/>
+</svg>

@@ -1,0 +1,92 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradiente rosa vibrante -->
+    <linearGradient id="pinkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6D9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FF69B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8AC9;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradiente para brilho -->
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFC8E3;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#FFB6D9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFC8E3;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Filtro de sombra rosa -->
+    <filter id="pinkShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#FF69B4" flood-opacity="0.5"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Filtro de brilho -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background com bordas arredondadas -->
+  <rect width="400" height="120" rx="15" fill="#0d1117" opacity="0.95"/>
+  
+  <!-- Decoração: círculos rosa no fundo -->
+  <circle cx="30" cy="30" r="15" fill="url(#pinkGradient)" opacity="0.3">
+    <animate attributeName="r" values="15;18;15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="370" cy="90" r="12" fill="url(#pinkGradient)" opacity="0.3">
+    <animate attributeName="r" values="12;15;12" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Estrelinhas decorativas -->
+  <g fill="url(#glowGradient)" opacity="0.6">
+    <path d="M 35 95 L 37 100 L 42 100 L 38 103 L 40 108 L 35 105 L 30 108 L 32 103 L 28 100 L 33 100 Z">
+      <animateTransform attributeName="transform" type="rotate" from="0 35 100" to="360 35 100" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 365 25 L 367 30 L 372 30 L 368 33 L 370 38 L 365 35 L 360 38 L 362 33 L 358 30 L 363 30 Z">
+      <animateTransform attributeName="transform" type="rotate" from="0 365 30" to="360 365 30" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Texto principal: kay-https -->
+  <text x="200" y="70" font-family="'Courier New', monospace" font-size="48" font-weight="bold" text-anchor="middle" fill="url(#pinkGradient)" filter="url(#pinkShadow)">
+    kay-https
+  </text>
+  
+  <!-- Sublinhado animado -->
+  <line x1="80" y1="85" x2="320" y2="85" stroke="url(#pinkGradient)" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="stroke-dasharray" values="0 240;240 0;0 240" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Texto decorativo "< />" -->
+  <text x="60" y="70" font-family="monospace" font-size="36" fill="#FF69B4" opacity="0.7" filter="url(#glow)">
+    &lt;
+  </text>
+  <text x="330" y="70" font-family="monospace" font-size="36" fill="#FF69B4" opacity="0.7" filter="url(#glow)">
+    /&gt;
+  </text>
+  
+  <!-- Partículas brilhantes animadas -->
+  <circle cx="100" cy="40" r="2" fill="#FFC8E3">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="40;35;40" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="50" r="2" fill="#FFB6D9">
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="cy" values="50;45;50" dur="2.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="150" cy="30" r="2" fill="#FF8AC9">
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="cy" values="30;25;30" dur="3s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>

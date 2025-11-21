@@ -1,0 +1,22 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Neon Border -->
+  <rect x="3" y="3" width="74" height="74" rx="15" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.6" filter="url(#neonGlow)"/>
+  
+  <!-- Background -->
+  <rect x="8" y="8" width="64" height="64" rx="12" fill="#1a1f2e"/>
+  
+  <!-- VS Code Icon - Original Blue -->
+  <path d="M53 24 L53 56 L32 48 L24 42 L32 36 Z" fill="#007ACC"/>
+  <path d="M53 24 L32 36 L24 42 L32 48 L53 36 Z" fill="#0098FF" opacity="0.8"/>
+  <path d="M24 42 L28 39 L28 45 Z" fill="#FFFFFF"/>
+</svg>
