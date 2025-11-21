@@ -239,10 +239,11 @@ Hi there! I'm **kay-https** — a passionate Java developer specializing in back
 <!-- PRIORITY: high -->
 ## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-heart-animated.svg" width="28" alt="Heart" /> Connect with Me
 
-<!-- CONTACT_TYPE: email -->
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-lightning.svg" width="16" alt="Lightning" /> Email: `seu.email@example.com`
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-target.svg" width="16" alt="Target" /> Website: [seu-website.com](https://seu-website.com/)
+<!-- CONTACT_TYPE: email -->
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-lightning.svg" width="16" alt="Lightning" /> Email: `Kayytub@gmail.com`
+
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-target.svg" width="16" alt="Target" /> LinkedIn: [in/kayllanne-farias-017664236](https://www.linkedin.com/in/kayllanne-farias-017664236)
 
 <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" /> Feel free to open an issue or pull request if you'd like to collaborate or ask questions!
 
