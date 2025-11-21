@@ -17,6 +17,11 @@
 
 <br><br>
 
+<!-- GIF personalizado -->
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/Gifcate.gif" alt="Gifcate" width="220" />
+
+<br><br>
+
 <!-- COMPONENT: visitor_badge -->
 <!-- TRACKING: enabled -->
 <!-- Badge de visitantes simples -->
@@ -203,7 +208,7 @@ Hi there! I'm **kay-https** — a passionate Java developer specializing in back
 
 <br>
 
-[![Kay's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=kay-https&bg_color=0d1117&color=FFB6D9&line=FF69B4&point=FFC8E3&area=true&hide_border=true)](https://github.com/kay-https)
+<img src="https://raw.githubusercontent.com/gugs881/gugs881/output/pacman-contribution-graph-dark.svg" alt="Pacman Contribution Graph" width="100%" />
 
 </div>
 
