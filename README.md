@@ -1,4 +1,3 @@
-
 <!-- SESSION_START: profile_view_2025 -->
 <!-- SESSION_ID: kay-https_main_profile -->
 <!-- VERSION: 3.2.1 -->
@@ -8,13 +7,13 @@
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
 <!-- Logo personalizado -->
 <!-- COMPONENT: header_logo -->
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/devyukis-logo.svg" alt="kay-https" />
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/kay-https-logo.svg" alt="kay-https" />
 
 <br><br>
 
@@ -30,7 +29,7 @@
 <br>
 
 <!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
@@ -44,38 +43,38 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
 <!-- SECTION_START: about_me -->
 <!-- PRIORITY: high -->
 <!-- EMOJI_SET: soft_pink_collection -->
-## <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-users.svg" width="30" alt="Users" /> About Me
+## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-users.svg" width="30" alt="Users" /> About Me
 
 <!-- SUBSECTION: education_career -->
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-graduation.svg" width="20" alt="Graduation" /> <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-rocket.svg" width="20" alt="Rocket" /> Full-stack developer & software architect — currently exploring cloud-native architectures, microservices, and AI integration.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-graduation.svg" width="20" alt="Graduation" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-rocket.svg" width="20" alt="Rocket" /> Full-stack developer & software architect — currently exploring cloud-native architectures, microservices, and AI integration.
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-bulb.svg" width="20" alt="Bulb" /> <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="20" alt="Sparkles" /> I love building beautiful, practical tools — from small utilities to full-scale enterprise systems.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-bulb.svg" width="20" alt="Bulb" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="20" alt="Sparkles" /> I love building beautiful, practical tools — from small utilities to full-scale enterprise systems.
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-pencil.svg" width="20" alt="Pencil" /> <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-star.svg" width="20" alt="Star" /> My mission: To contribute to innovative technology solutions and share knowledge with the developer community.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-pencil.svg" width="20" alt="Pencil" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-star.svg" width="20" alt="Star" /> My mission: To contribute to innovative technology solutions and share knowledge with the developer community.
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
 <!-- SECTION_START: core_skills -->
 <!-- SKILL_COUNT: 50+ -->
 <!-- LAYOUT: grid_centered -->
-## <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-code.svg" width="28" alt="Code" /> My Core Skills
+## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-code.svg" width="28" alt="Code" /> My Core Skills
 
 <div align="center">
 
 <!-- SKILL_CATEGORY: programming_languages -->
 <!-- ITEMS: 8 -->
-###  <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-rocket.svg" width="20" alt="Rocket" /> Programming Languages
+###  <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-rocket.svg" width="20" alt="Rocket" /> Programming Languages
 
 <!-- SKILL_ITEM: python -->
 <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" /></a>
@@ -87,7 +86,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 <a href="https://www.php.net/"><img src="https://skillicons.dev/icons?i=php" width="40" height="40" alt="PHP" /></a>
 <a href="https://go.dev/"><img src="https://skillicons.dev/icons?i=go" width="40" height="40" alt="Go" /></a>
 
-###  <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-code.svg" width="20" alt="Code" /> IDEs & Development Tools
+###  <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-code.svg" width="20" alt="Code" /> IDEs & Development Tools
 
 <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="VS Code" /></a>
 <a href="https://www.jetbrains.com/"><img src="https://skillicons.dev/icons?i=idea" width="40" height="40" alt="JetBrains" /></a>
@@ -96,7 +95,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="Git" /></a>
 <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GitHub" /></a>
 
-###  <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="20" alt="Sparkles" /> Web, Cloud & Frameworks
+###  <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="20" alt="Sparkles" /> Web, Cloud & Frameworks
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="40" height="40" alt="HTML" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" width="40" height="40" alt="CSS" /></a>
@@ -112,7 +111,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 <a href="https://dotnet.microsoft.com/"><img src="https://skillicons.dev/icons?i=dotnet" width="40" height="40" alt=".NET" /></a>
 <a href="https://laravel.com/"><img src="https://skillicons.dev/icons?i=laravel" width="40" height="40" alt="Laravel" /></a>
 
-###  <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-target.svg" width="20" alt="Target" /> Database & DevOps
+###  <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-target.svg" width="20" alt="Target" /> Database & DevOps
 
 <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgresql" width="40" height="40" alt="PostgreSQL" /></a>
 <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" width="40" height="40" alt="MySQL" /></a>
@@ -123,7 +122,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 <a href="https://www.nginx.com/"><img src="https://skillicons.dev/icons?i=nginx" width="40" height="40" alt="Nginx" /></a>
 <a href="https://about.gitlab.com/"><img src="https://skillicons.dev/icons?i=gitlab" width="40" height="40" alt="GitLab" /></a>
 
-### <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-eye.svg" width="20" alt="Eye" /> AI & Data Science
+### <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-eye.svg" width="20" alt="Eye" /> AI & Data Science
 
 <a href="https://www.tensorflow.org/"><img src="https://skillicons.dev/icons?i=tensorflow" width="40" height="40" alt="TensorFlow" /></a>
 <a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="40" height="40" alt="PyTorch" /></a>
@@ -132,7 +131,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 <a href="https://www.latex-project.org/"><img src="https://skillicons.dev/icons?i=latex" width="40" height="40" alt="LaTeX" /></a>
 <a href="https://www.markdownguide.org/"><img src="https://skillicons.dev/icons?i=markdown" width="40" height="40" alt="Markdown" /></a>
 
-### <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-lightning.svg" width="20" alt="Lightning" /> Hardware, OS & Utilities
+### <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-lightning.svg" width="20" alt="Lightning" /> Hardware, OS & Utilities
 
 <a href="https://www.arduino.cc/"><img src="https://skillicons.dev/icons?i=arduino" width="40" height="40" alt="Arduino" /></a>
 <a href="https://www.raspberrypi.org/"><img src="https://skillicons.dev/icons?i=raspberrypi" width="40" height="40" alt="Raspberry Pi" /></a>
@@ -146,14 +145,14 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
 <!-- SECTION_START: featured_projects -->
 <!-- PROJECT_COUNT: 4 -->
 <!-- DISPLAY_MODE: showcase -->
-## <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-star.svg" width="28" alt="Star" /> Featured Projects
+## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-star.svg" width="28" alt="Star" /> Featured Projects
 
 <!-- PROJECT_ITEM: 1 -->
 <!-- STATUS: active -->
@@ -171,14 +170,14 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
 <!-- SECTION_START: statistics -->
 <!-- DATA_SOURCE: github_api -->
 <!-- AUTO_UPDATE: enabled -->
-## <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-users.svg" width="28" alt="Users" /> Organization Statistics
+## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-users.svg" width="28" alt="Users" /> Organization Statistics
 
 <div align="center">
 
@@ -197,7 +196,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <!-- SUBSECTION: activity_graph -->
 <!-- GRAPH_TYPE: contribution_timeline -->
-### <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-fire.svg" width="22" alt="Fire" /> Activity & Contributions
+### <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-fire.svg" width="22" alt="Fire" /> Activity & Contributions
 
 <!-- WIDGET: activity_graph -->
 <!-- REFRESH_RATE: daily -->
@@ -211,45 +210,45 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
-## <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-eye.svg" width="28" alt="Eye" /> What You'll Find Here
+## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-eye.svg" width="28" alt="Eye" /> What You'll Find Here
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-code.svg" width="16" alt="Code" /> Source code from both academic and real-world projects.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-code.svg" width="16" alt="Code" /> Source code from both academic and real-world projects.
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-lightning.svg" width="16" alt="Lightning" /> Articles and insights about web development, cloud computing, AI/ML, and modern software architecture.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-lightning.svg" width="16" alt="Lightning" /> Articles and insights about web development, cloud computing, AI/ML, and modern software architecture.
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-fire.svg" width="16" alt="Fire" /> Self-developed tools, VS Code extensions, and automation scripts.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-fire.svg" width="16" alt="Fire" /> Self-developed tools, VS Code extensions, and automation scripts.
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" /> Community resources and open-source contributions.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" /> Community resources and open-source contributions.
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
 
 <!-- SECTION_START: contact -->
 <!-- CONTACT_METHODS: 3 -->
 <!-- PRIORITY: high -->
-## <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-heart-animated.svg" width="28" alt="Heart" /> Connect with Me
+## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-heart-animated.svg" width="28" alt="Heart" /> Connect with Me
 
 <!-- CONTACT_TYPE: email -->
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-lightning.svg" width="16" alt="Lightning" /> Email: `seu.email@example.com`
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-lightning.svg" width="16" alt="Lightning" /> Email: `seu.email@example.com`
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-target.svg" width="16" alt="Target" /> Website: [seu-website.com](https://seu-website.com/)
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-target.svg" width="16" alt="Target" /> Website: [seu-website.com](https://seu-website.com/)
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" /> Feel free to open an issue or pull request if you'd like to collaborate or ask questions!
-
-<br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" /> Feel free to open an issue or pull request if you'd like to collaborate or ask questions!
 
 <br>
 
-> <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" /> *"I believe that knowledge should be shared — let's learn and grow together."* — kay-https <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" />
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+
+<br>
+
+> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" /> *"I believe that knowledge should be shared — let's learn and grow together."* — kay-https <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="16" alt="Sparkles" />
 
 <br>
 
@@ -261,13 +260,14 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-cat-kawaii.svg" width="40" alt="Kawaii Cat" /> When I'm not coding, you'll find me exploring new technologies, contributing to open source, or brewing the perfect cup of coffee. <img src="https://raw.githubusercontent.com/kay-https/.github/main/assets/emojis/premium/soft-pink-cat-chill.svg" width="40" alt="Chill Cat" />
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-cat-kawaii.svg" width="40" alt="Kawaii Cat" /> When I'm not coding, you'll find me exploring new technologies, contributing to open source, or brewing the perfect cup of coffee. <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-cat-chill.svg" width="40" alt="Chill Cat" />
 
 </div>
 
 <br>
 
 <!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
 
 <br>
+
