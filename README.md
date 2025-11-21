@@ -5,6 +5,7 @@
 <!-- RENDER_MODE: github_profile -->
 <!-- THEME: soft_pink_kawaii -->
 
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
@@ -15,19 +16,18 @@
 <!-- COMPONENT: header_logo -->
 <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/kay-https-logo.svg" alt="kay-https" />
 
-<br><br>
+<br>
 
-<!-- GIF personalizado -->
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/Gifcate.gif" alt="Gifcate" width="220" />
+<!-- GIF personalizado (centralizado) -->
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/Gifcate.gif" alt="Gifcate" width="720" style="max-width:100%;height:auto;" />
 
-<br><br>
+<br>
 
-<!-- COMPONENT: visitor_badge -->
-<!-- TRACKING: enabled -->
-<!-- Badge de visitantes simples -->
+<!-- COMPONENT: visitor_badge (único) -->
+<br>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=kay-https.github&left_color=grey&right_color=FFB6D9&left_text=visits" alt="Visitors" />
 
-<br><br>
+<br>
 
 </div>
 
@@ -208,7 +208,9 @@ Hi there! I'm **kay-https** — a passionate Java developer specializing in back
 
 <br>
 
-<img src="https://raw.githubusercontent.com/gugs881/gugs881/output/pacman-contribution-graph-dark.svg" alt="Pacman Contribution Graph" width="100%" />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gugs881/gugs881/output/pacman-contribution-graph-dark.svg" alt="Pacman Contribution Graph" width="720" style="max-width:100%;height:auto;" />
+</div>
 
 </div>
 
