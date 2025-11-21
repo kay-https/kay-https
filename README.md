@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -29,7 +29,7 @@
 <br>
 
 <!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -39,11 +39,11 @@
 
 <!-- SECTION: introduction -->
 <!-- CHARACTER_COUNT: 156 -->
-Hi there! I'm **kay-https** — a full-stack developer passionate about building scalable applications and innovative solutions. This is my personal GitHub profile where I share open-source projects, technical resources, and hands-on experiences in web development, cloud computing, and AI.
+Hi there! I'm **kay-https** — a passionate Java developer specializing in backend development and enterprise applications. I love building robust, scalable systems using Spring Boot, microservices architecture, and cloud technologies. Welcome to my coding journey!
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -53,15 +53,15 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 ## <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-users.svg" width="30" alt="Users" /> About Me
 
 <!-- SUBSECTION: education_career -->
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-graduation.svg" width="20" alt="Graduation" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-rocket.svg" width="20" alt="Rocket" /> Full-stack developer & software architect — currently exploring cloud-native architectures, microservices, and AI integration.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-graduation.svg" width="20" alt="Graduation" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-rocket.svg" width="20" alt="Rocket" /> Java developer & backend specialist — passionate about Spring ecosystem, microservices, and building high-performance enterprise applications.
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-bulb.svg" width="20" alt="Bulb" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="20" alt="Sparkles" /> I love building beautiful, practical tools — from small utilities to full-scale enterprise systems.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-bulb.svg" width="20" alt="Bulb" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="20" alt="Sparkles" /> I spend my days coding in IntelliJ IDEA, crafting clean, maintainable Java code, and exploring new ways to optimize backend systems.
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-pencil.svg" width="20" alt="Pencil" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-star.svg" width="20" alt="Star" /> My mission: To contribute to innovative technology solutions and share knowledge with the developer community.
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-pencil.svg" width="20" alt="Pencil" /> <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-star.svg" width="20" alt="Star" /> My mission: To create elegant Java solutions that solve real-world problems and share knowledge with the developer community.
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -76,24 +76,23 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 <!-- ITEMS: 8 -->
 ###  <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-rocket.svg" width="20" alt="Rocket" /> Programming Languages
 
-<!-- SKILL_ITEM: python -->
+<!-- SKILL_ITEM: java -->
+<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="40" height="40" alt="Java" /></a>
+<a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" width="40" height="40" alt="Spring" /></a>
 <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=javascript" width="40" height="40" alt="JavaScript" /></a>
 <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=typescript" width="40" height="40" alt="TypeScript" /></a>
-<a href="https://learn.microsoft.com/en-us/dotnet/csharp/"><img src="https://skillicons.dev/icons?i=cs" width="40" height="40" alt="C#" /></a>
-<a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" width="40" height="40" alt="Java" /></a>
-<a href="https://www.ruby-lang.org/"><img src="https://skillicons.dev/icons?i=ruby" width="40" height="40" alt="Ruby" /></a>
-<a href="https://www.php.net/"><img src="https://skillicons.dev/icons?i=php" width="40" height="40" alt="PHP" /></a>
+<a href="https://kotlinlang.org/"><img src="https://skillicons.dev/icons?i=kotlin" width="40" height="40" alt="Kotlin" /></a>
 <a href="https://go.dev/"><img src="https://skillicons.dev/icons?i=go" width="40" height="40" alt="Go" /></a>
 
 ###  <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-code.svg" width="20" alt="Code" /> IDEs & Development Tools
 
+<a href="https://www.jetbrains.com/idea/"><img src="https://skillicons.dev/icons?i=idea" width="40" height="40" alt="IntelliJ IDEA" /></a>
 <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="VS Code" /></a>
-<a href="https://www.jetbrains.com/"><img src="https://skillicons.dev/icons?i=idea" width="40" height="40" alt="JetBrains" /></a>
-<a href="https://www.jetbrains.com/pycharm/"><img src="https://skillicons.dev/icons?i=pycharm" width="40" height="40" alt="PyCharm" /></a>
 <a href="https://www.eclipse.org/"><img src="https://skillicons.dev/icons?i=eclipse" width="40" height="40" alt="Eclipse" /></a>
 <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="Git" /></a>
 <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" width="40" height="40" alt="GitHub" /></a>
+<a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" width="40" height="40" alt="Postman" /></a>
 
 ###  <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/emojis/premium/soft-pink-sparkles-animated.svg" width="20" alt="Sparkles" /> Web, Cloud & Frameworks
 
@@ -145,7 +144,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -170,7 +169,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -210,7 +209,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -226,7 +225,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -244,7 +243,7 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 
 <br>
 
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
 
@@ -267,7 +266,8 @@ Hi there! I'm **kay-https** — a full-stack developer passionate about building
 <br>
 
 <!-- Animated Divider -->
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-wave-divider.svg" width="100%">
+<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
 
 <br>
+
 
