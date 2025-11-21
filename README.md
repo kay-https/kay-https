@@ -1,17 +1,7 @@
-<!-- SESSION_START: profile_view_2025 -->
-<!-- SESSION_ID: kay-https_main_profile -->
-<!-- VERSION: 3.2.1 -->
-<!-- LAST_UPDATED: 2025-11-21 -->
-<!-- RENDER_MODE: github_profile -->
-<!-- THEME: soft_pink_kawaii -->
 
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/pink-line-divider.svg" width="100%">
-<br><br>
-
-<img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/kay-https-logo.svg" alt="kay-https" />
-
 <br><br>
 
 <img src="https://i.pinimg.com/originals/8e/dd/25/8edd25eaef846269172c3c8ed5cb1e08.gif">
@@ -24,15 +14,9 @@
 
 </div>
 
-
-<!-- GIF personalizado -->
 <img src="https://raw.githubusercontent.com/kay-https/kay-https/main/assets/Gifcate.gif" alt="Gifcate" width="220" />
 
 <br><br>
-
-<!-- COMPONENT: visitor_badge -->
-<!-- TRACKING: enabled -->
-<!-- Badge de visitantes simples -->
 <img src="https://visitor-badge.laobi.icu/badge?page_id=kay-https.github&left_color=grey&right_color=FFB6D9&left_text=visits" alt="Visitors" />
 
 <br><br>
